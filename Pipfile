@@ -9,7 +9,7 @@ flask-cors = "*"
 flask-login = "*"
 flask-pymongo = "*"
 pymongo = {extras = ["srv"], version = "*"}
-gunicorn = "*"
+aws-wsgi = "*"
 
 [dev-packages]
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f74b487c8e5681be9194ae8fbbf2e300f693a928b244afb3e0098d1c6052e3c6"
+            "sha256": "c03f1140e4738f71eb40a90e06a6a8c8a97a5a4e9e0eb36b0526337c3761592e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "aws-wsgi": {
+            "hashes": [
+                "sha256:37e16b6a211f251d9f72ab85018c4127a59dc0fc81263c19f312a6a8333f9908",
+                "sha256:eb0b00970e80d96b52c0806ceae2ff98ab96c90f67651765755c5236f9e6e50d"
+            ],
+            "index": "pypi",
+            "version": "==0.2.7"
+        },
         "blinker": {
             "hashes": [
                 "sha256:1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01",
@@ -81,15 +89,6 @@
             ],
             "index": "pypi",
             "version": "==2.3.0"
-        },
-        "gunicorn": {
-            "hashes": [
-                "sha256:350679f91b24062c86e386e198a15438d53a7a8207235a78ba1b53df4c4378d9",
-                "sha256:4a0b436239ff76fb33f11c07a16482c521a7e09c1ce3cc293c2330afe01bec63"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==22.0.0"
         },
         "itsdangerous": {
             "hashes": [
@@ -172,14 +171,6 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.1.5"
-        },
-        "packaging": {
-            "hashes": [
-                "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
-                "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==24.1"
         },
         "pymongo": {
             "extras": [
